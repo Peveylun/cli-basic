@@ -17,4 +17,4 @@ fn main() {
         "cat" => { commands::cat::run(&args[2..]); }
         _ => { println!("Unknown command: {}", comm); }
     }
-}
+}   
